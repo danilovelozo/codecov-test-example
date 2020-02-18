@@ -3,4 +3,3 @@
 - Sample Project for Codecov Integration
 
 [Codecov.io](codecov.io)
-
