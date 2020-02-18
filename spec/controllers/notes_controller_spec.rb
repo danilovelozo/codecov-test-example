@@ -20,3 +20,4 @@ RSpec.describe NotesController, type: :controller do
     end
   end
 end
+
