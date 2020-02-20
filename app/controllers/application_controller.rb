@@ -14,4 +14,14 @@ class ApplicationController < ActionController::Base
       redirect_to root_path, alert: "You don't have access to that project."
     end
   end
+
+  def useless_function
+    for i in 0..1000000 do
+      for j in 0..1000000 do
+        for k in 0..1000000 do
+          puts "Muda "
+        end
+      end
+    end
+  end
 end
