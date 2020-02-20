@@ -24,4 +24,24 @@ class ApplicationController < ActionController::Base
       end
     end
   end
+
+  def useless_function2
+    for i in 0..1000000 do
+      for j in 0..1000000 do
+        for k in 0..1000000 do
+          puts "Muda "
+        end
+      end
+    end
+  end
+
+  def useless_function3
+    for i in 0..1000000 do
+      for j in 0..1000000 do
+        for k in 0..1000000 do
+          puts "Muda "
+        end
+      end
+    end
+  end
 end
